@@ -1,0 +1,13 @@
+{
+  "name": "stocksense-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "StockSense Inventory Management System - Digitize Stock Operations",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "test:auth": "node server/src/testAuth.js",
+    "build:client": "npm --prefix client run build"
+  }
+}
